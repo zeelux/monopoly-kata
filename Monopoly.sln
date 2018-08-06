@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29730BE3-B939-4B35-A67A-7AEAE979E15F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Monopoly.vsmdi = Monopoly.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{BEC30461-A0E6-4585-9004-EE5D1233DE2B}"
+	ProjectSection(SolutionItems) = preProject
+		MonopolyBoard.jpg = MonopolyBoard.jpg
+		MonopolyKata_Phase1.doc = MonopolyKata_Phase1.doc
+		MonopolyKata_Phase2.doc = MonopolyKata_Phase2.doc
+		MonopolyKata_Phase3.doc = MonopolyKata_Phase3.doc
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyUnitTests", "MonopolyUnitTests\MonopolyUnitTests.csproj", "{B97D6796-697B-4F78-8713-0DB7346BB5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly", "Monopoly\Monopoly.csproj", "{AD879C46-8533-4A51-874D-DB295321C02F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Monopoly.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B97D6796-697B-4F78-8713-0DB7346BB5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97D6796-697B-4F78-8713-0DB7346BB5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97D6796-697B-4F78-8713-0DB7346BB5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97D6796-697B-4F78-8713-0DB7346BB5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD879C46-8533-4A51-874D-DB295321C02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD879C46-8533-4A51-874D-DB295321C02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD879C46-8533-4A51-874D-DB295321C02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD879C46-8533-4A51-874D-DB295321C02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
